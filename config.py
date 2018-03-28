@@ -4,7 +4,7 @@ import os
 class Config(object):
     DEBUG = False
     DB_NAME = "iky-ai"
-    DB_HOST = "mongodb://127.0.0.1:27017/"
+    DB_HOST = "mongodb://heroku_dj9l47s3:jagansindia2015@ds113799.mlab.com:13799/heroku_dj9l47s3"
     DB_USERNAME = ""
     DB_PASSWORD = ""
     # Web Server details
