@@ -23,7 +23,7 @@ class Development(Config):
 
 class Production(Config):
     # MongoDB Database Details
-    DB_HOST = "mongodb://mongodb:27017/"
+    DB_HOST = "mongodb://heroku_r98r6h3s:lceh634mfv0hv77rgs2v4ps5es@ds227469.mlab.com:27469/heroku_r98r6h3s"
     DB_USERNAME = ""
     DB_PASSWORD = ""
 
