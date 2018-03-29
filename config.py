@@ -8,7 +8,7 @@ class Config(object):
     DB_USERNAME = ""
     DB_PASSWORD = ""
     # Web Server details
-    WEB_SERVER_PORT = 8001
+    WEB_SERVER_PORT = 8080
 
     # Intent Classifier model detials
     MODELS_DIR = "model_files"
@@ -28,4 +28,4 @@ class Production(Config):
     DB_PASSWORD = ""
 
     # Web Server details
-    WEB_SERVER_PORT = 8001
+    WEB_SERVER_PORT = 8080
