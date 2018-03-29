@@ -3,8 +3,8 @@ import os
 
 class Config(object):
     DEBUG = False
-    DB_NAME = "heroku_dj9l47s3"
-    DB_HOST = "mongodb://:cadjq6j0vecegujc7jal00e7qk@ds113799.mlab.com:13799"
+    DB_NAME = ""
+    DB_HOST = "mongodb://heroku_r98r6h3s:lceh634mfv0hv77rgs2v4ps5es@ds227469.mlab.com:27469/heroku_r98r6h3s"
     DB_USERNAME = ""
     DB_PASSWORD = ""
     # Web Server details
