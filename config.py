@@ -4,9 +4,9 @@ import os
 class Config(object):
     DEBUG = False
     DB_NAME = "heroku_dj9l47s3"
-    DB_HOST = "mongodb://heroku_dj9l47s3:jagansindia2015@ds113799.mlab.com:13799"
-    DB_USERNAME = ""
-    DB_PASSWORD = ""
+    DB_HOST = "mongodb://ds113799.mlab.com:13799"
+    DB_USERNAME = "heroku_dj9l47s3"
+    DB_PASSWORD = "heroku_dj9l47s3"
     # Web Server details
     WEB_SERVER_PORT = 8001
 
